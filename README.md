@@ -6,7 +6,7 @@ _Une Expérience de Navigation dans le Latent Space_
 
 Ce projet est une installation interactive qui invite les visiteurs à naviguer dans le "latent space", ou espace latent, grâce à un appareil de navigation faussement analogique basé sur un MCDU (Multipurpose Control Display Unit) d'avion.
 
-L'installation utilise un MCDU factice pour afficher et naviguer à travers une collection d'images créées par un réseau antagoniste génératif (GAN). Chaque image représente une transposition générative d'une photographie de la cour du "108" à Orléans, mêlant les éléments originaux de la photo avec les transformations proposées par l'IA.
+L'installation utilise un MCDU factice pour afficher et naviguer à travers une collection d'images créées par un réseau antagoniste génératif (GAN). Chaque image représente une transposition générative d'une photographie prise par l'auteur en differents lieux (Orléans, France ou à l'étranger), mêlant les éléments originaux de la photo avec les transformations proposées par l'IA.
 
 ## Origine et Idée Maîtresse du Projet
 
