@@ -58,9 +58,9 @@ L'expérience est accompagnée par des bruitages analogiques, notamment des brui
 
 ### ECU
 
-- Gigabyte B450 I Aorus Pro : Une carte mère ITX intégrée graphique abordable mais puissante.
-- Asus ROG Strix B760-I Gaming WiFi : Si vous recherchez une construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
-- Intel® Celeron Baytrail SoC Processor : Processeur SoC Intel® Celeron Baytrail ; Graphiques Intel® Gen7 Intel intégrés DX 10 ; Prend en charge la DDR3L 1333MHz en double canal, 2 x SO-DIMM, jusqu'à 16GB de système.
+- _Gigabyte B450 I Aorus Pro :_ Une carte mère ITX intégrée graphique abordable mais puissante.
+- _Asus ROG Strix B760-I Gaming WiFi :_ Si vous recherchez une construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
+- _Intel® Celeron Baytrail SoC Processor :_ Processeur SoC Intel® Celeron Baytrail ; Graphiques Intel® Gen7 Intel intégrés DX 10 ; Prend en charge la DDR3L 1333MHz en double canal, 2 x SO-DIMM, jusqu'à 16GB de système.
 
 ## Images
 
