@@ -10,7 +10,10 @@ L'installation utilise un [MCDU](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_g
 
 ## Origine et Idée Maîtresse du Projet
 
-L'idée de ce projet a germé à partir de [l'expérimentation avec une IA générative d'images](https://labomedia.org/oeuvres-interactives/un-cabinet-de-curiosites-numeriques/) (un GAN, ou réseau antagoniste génératif) pour créer des versions transformées d'une photographie de la cour du "108" à Orléans. En fournissant lui une photo originale, l'IA a proposé différentes transpositions en texte et en images. Ces transpositions ont été mélangées avec la photo originale pour créer une image à la fois très proche et très différente de l'original. Cette experimentation a été poursuivie par l'auteur, sur un grand nombre de photographies et de sujets divers.
+L'idée de ce projet a germé à partir de [l'expérimentation avec une IA générative d'images](https://labomedia.org/oeuvres-interactives/un-cabinet-de-curiosites-numeriques/) (un GAN, ou réseau antagoniste génératif) pour créer des versions transformées d'une photographie de la cour du ["108" à Orléans](https://le108.org/). En fournissant lui une photo originale, l'IA a proposé différentes transpositions en texte et en images. Ces transpositions ont été mélangées avec la photo originale pour créer une image à la fois très proche et très différente de l'original. Cette experimentation a été poursuivie par l'auteur, sur un grand nombre de photographies et de sujets divers.
+
+![L'autre 108](img/example.png)<br>
+_L'autre 108, image réelle et synthétique du 108/Labomedia_
 
 Le résultat est [une collection d'images allant par paires](https://www.instagram.com/latentspacecadet/): l'original et la version synthétique. Chaque image synthétique représente une réalité alternative possible, rendant manifeste l'idée du "latent space" (espace latent), un espace abstrait multidimensionnel qui est l'incubateur de toutes les réalités possibles qu'une IA générative peut créer.
 
