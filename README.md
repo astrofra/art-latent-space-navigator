@@ -42,6 +42,26 @@ Un "mode autopilote" est également disponible, qui fait défiler automatiquemen
 
 L'expérience est accompagnée par des bruitages analogiques, notamment des bruits mécanographiques lors de l'interaction avec le clavier. D'autres sons peuvent inclure des bruits de navigation, des sons d'ambiance de l'espace, de la musique générative, ou des réactions sonores spécifiques pour chaque image affichée.
 
+## Equipements possibles
+
+### Ecran
+
+- *Waveshare 7 inch Display for Raspberry Pi :* Écran tactile capacitif HDMI LCD (H) 1024x600 Resolution IPS Monitor Supports All Raspberry Pi/Jetson.
+- *7inch HDMI LCD Display (C) - Amazon :* Écran tactile capacitif de 7 pouces, interface HDMI, prend en charge divers systèmes.
+- *7 Inch Lcd Monitor With Hdmi Input - Computer And Office - AliExpress :* Écran LCD de 7 pouces avec entrée HDMI.
+- *7 inch Lilliput portable HDMI monitors for DSLR, computer and field work :* Le Lilliput 619AT est un moniteur de terrain LCD 16:9 de 7 pouces avec une entrée HDMI et un écran tactile intégré.
+- *8 Inch Mini HDMI Portable LCD Display 1280x800 Resolution Monitor Buil - Pi Australia :* Ce petit moniteur améliore vos expériences audiovisuelles avec des haut-parleurs intégrés. Le volume/la luminosité peut être ajusté.
+
+### Clavier
+
+- https://www.minimachines.net/actu/orthopi-95187
+
+### ECU
+
+- Gigabyte B450 I Aorus Pro : Une carte mère ITX intégrée graphique abordable mais puissante.
+- Asus ROG Strix B760-I Gaming WiFi : Si vous recherchez une construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
+- Intel® Celeron Baytrail SoC Processor : Processeur SoC Intel® Celeron Baytrail ; Graphiques Intel® Gen7 Intel intégrés DX 10 ; Prend en charge la DDR3L 1333MHz en double canal, 2 x SO-DIMM, jusqu'à 16GB de système.
+
 ## Images
 
 ![front](img/mcdu-front.png)
