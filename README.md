@@ -15,11 +15,11 @@ L'idée de ce projet a germé à partir de [l'expérimentation avec une IA gén�
 ![L'autre 108](img/example.png)<br>
 _L'autre 108, image réelle et synthétique du 108/Labomedia_
 
-Le résultat est [une collection d'images allant par paires](https://www.instagram.com/latentspacecadet/): l'original et la version synthétique. Chaque image synthétique représente une réalité alternative possible, rendant manifeste l'idée du "latent space" (espace latent), un espace abstrait multidimensionnel qui est l'incubateur de toutes les réalités possibles qu'une IA générative peut créer.
+Le résultat est [une collection d'images allant par paires](https://www.instagram.com/latentspacecadet/): l'original et la version synthétique. Chaque image synthétique représente une réalité alternative possible, rendant manifeste l'idée du _latent space_ (espace latent), un espace abstrait multidimensionnel qui est l'incubateur de toutes les réalités possibles qu'une IA générative peut créer.
 
 L'idée maîtresse du projet est ainsi de donner une forme concrète à cette idée d'un voyage dans le latent space. L'installation invite les visiteurs à naviguer à travers cette réalité différente, à la manière d'un voyageur qui navigue à travers un espace géographique. 
 
-Pour cela, l'installation utilise un appareil de navigation factice, basé sur un MCDU (Multipurpose Control Display Unit) d'avion. Cet appareil est un outil de navigation couramment utilisé dans l'aviation pour entrer et afficher les informations de vol. En le détournant de son usage original, l'installation fait écho au processus de transformation des images par l'IA, et renforce le lien métaphorique entre la navigation géographique et la navigation dans le latent space.
+Pour cela, l'installation utilise un appareil de navigation factice, basé sur un MCDU (Multipurpose Control Display Unit) d'avion. Cet appareil est un outil de navigation couramment utilisé dans l'aviation pour entrer et afficher les informations de vol. En le détournant de son usage original, l'installation fait écho au processus de transformation des images par l'IA, et renforce le lien métaphorique entre la navigation géographique et la navigation dans le _latent space_.
 
 ## Composants de l'Installation
 
@@ -44,13 +44,17 @@ L'expérience est accompagnée par des bruitages analogiques, notamment des brui
 
 ## Equipements possibles
 
+### MCDU
+
+- https://a320fcu.com/en/product/mcdu-airbus-a320-on-table/
+
 ### Ecran
 
 - *Waveshare 7 inch Display for Raspberry Pi :* Écran tactile capacitif HDMI LCD (H) 1024x600 Resolution IPS Monitor Supports All Raspberry Pi/Jetson.
 - *7inch HDMI LCD Display (C) - Amazon :* Écran tactile capacitif de 7 pouces, interface HDMI, prend en charge divers systèmes.
 - *7 Inch Lcd Monitor With Hdmi Input - Computer And Office - AliExpress :* Écran LCD de 7 pouces avec entrée HDMI.
 - *7 inch Lilliput portable HDMI monitors for DSLR, computer and field work :* Le Lilliput 619AT est un moniteur de terrain LCD 16:9 de 7 pouces avec une entrée HDMI et un écran tactile intégré.
-- *8 Inch Mini HDMI Portable LCD Display 1280x800 Resolution Monitor Buil - Pi Australia :* Ce petit moniteur améliore vos expériences audiovisuelles avec des haut-parleurs intégrés. Le volume/la luminosité peut être ajusté.
+- *8 Inch Mini HDMI Portable LCD Display 1280x800 Resolution Monitor Buil - Pi Australia :* Ce petit moniteur améliore avec des haut-parleurs intégrés. Le volume/la luminosité peut être ajusté.
 
 ### Clavier
 
@@ -59,7 +63,7 @@ L'expérience est accompagnée par des bruitages analogiques, notamment des brui
 ### ECU
 
 - _Gigabyte B450 I Aorus Pro :_ Une carte mère ITX intégrée graphique abordable mais puissante.
-- _Asus ROG Strix B760-I Gaming WiFi :_ Si vous recherchez une construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
+- _Asus ROG Strix B760-I Gaming WiFi :_ Construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
 - _Intel® Celeron Baytrail SoC Processor :_ Processeur SoC Intel® Celeron Baytrail ; Graphiques Intel® Gen7 Intel intégrés DX 10 ; Prend en charge la DDR3L 1333MHz en double canal, 2 x SO-DIMM, jusqu'à 16GB de système.
 
 ## Images
