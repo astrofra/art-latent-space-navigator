@@ -1,70 +1,70 @@
 # The Latent Space Navigator
 
-_Une Expérience de Navigation dans le Latent Space_
+_An Experience of Navigating the Latent Space_
 
-## Présentation du Projet
+## Project Presentation
 
-Ce projet est une installation interactive qui invite les visiteurs à naviguer dans le "latent space", ou espace latent, grâce à un appareil de navigation faussement analogique basé sur un MCDU (Multipurpose Control Display Unit) d'avion.
+This project is an interactive installation that invites visitors to navigate the "latent space" using a seemingly analog navigation device based on an MCDU (Multipurpose Control Display Unit) from an aircraft.
 
-L'installation utilise un [MCDU](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_vol) factice pour afficher et naviguer à travers une collection d'images créées par un réseau antagoniste génératif (GAN). Chaque image représente une transposition générative d'une photographie prise par l'auteur en differents lieux (Orléans, France ou à l'étranger), mêlant les éléments originaux de la photo avec les transformations proposées par l'IA.
+The installation uses a dummy [MCDU](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_vol) to display and navigate through a collection of images created by a generative adversarial network (GAN). Each image represents a generative transposition of a photograph taken by the author in various places (Orléans, France or abroad), blending the original elements of the photo with the transformations proposed by the AI.
 
-## Origine et Idée Maîtresse du Projet
+## Origin and Main Idea of the Project
 
-L'idée de ce projet a germé à partir de [l'expérimentation avec une IA générative d'images](https://labomedia.org/oeuvres-interactives/un-cabinet-de-curiosites-numeriques/) (un GAN, ou réseau antagoniste génératif) pour créer des versions transformées d'une photographie de la cour du ["108" à Orléans](https://le108.org/). En fournissant lui une photo originale, l'IA a proposé différentes transpositions en texte et en images. Ces transpositions ont été mélangées avec la photo originale pour créer une image à la fois très proche et très différente de l'original. Cette experimentation a été poursuivie par l'auteur, sur un grand nombre de photographies et de sujets divers.
+The idea for this project sprouted from [experimenting with a generative image AI](https://labomedia.org/oeuvres-interactives/un-cabinet-de-curiosites-numeriques/) (a GAN, or generative adversarial network) to create transformed versions of a photograph of the courtyard of the ["108" in Orléans](https://le108.org/). By providing it with an original photo, the AI proposed different transpositions in text and images. These transpositions were mixed with the original photo to create an image that is both very close and very different from the original. This experimentation was continued by the author, on a large number of photographs and various subjects.
 
-![L'autre 108](img/example.png)<br>
-_L'autre 108, image réelle et synthétique du 108/Labomedia_
+![The Other 108](img/example.png)<br>
+_The Other 108, real and synthetic image of the 108/Labomedia_
 
-Le résultat est [une collection d'images allant par paires](https://www.instagram.com/latentspacecadet/): l'original et la version synthétique. Chaque image synthétique représente une réalité alternative possible, rendant manifeste l'idée du _latent space_ (espace latent), un espace abstrait multidimensionnel qui est l'incubateur de toutes les réalités possibles qu'une IA générative peut créer.
+The result is [a collection of images in pairs](https://www.instagram.com/latentspacecadet/): the original and the synthetic version. Each synthetic image represents a possible alternative reality, making manifest the idea of the _latent space_, an abstract multidimensional space that is the incubator of all possible realities that a generative AI can create.
 
-L'idée maîtresse du projet est ainsi de donner une forme concrète à cette idée d'un voyage dans le latent space. L'installation invite les visiteurs à naviguer à travers cette réalité différente, à la manière d'un voyageur qui navigue à travers un espace géographique. 
+The main idea of the project is thus to give a concrete form to this idea of a journey through the latent space. The installation invites visitors to navigate through this different reality, in the manner of a traveler navigating through a geographical space.
 
-Pour cela, l'installation utilise un appareil de navigation factice, basé sur un MCDU (Multipurpose Control Display Unit) d'avion. Cet appareil est un outil de navigation couramment utilisé dans l'aviation pour entrer et afficher les informations de vol. En le détournant de son usage original, l'installation fait écho au processus de transformation des images par l'IA, et renforce le lien métaphorique entre la navigation géographique et la navigation dans le _latent space_.
+For this, the installation uses a dummy navigation device, based on an MCDU (Multipurpose Control Display Unit) from an aircraft. This device is a navigation tool commonly used in aviation to enter and display flight information. By diverting it from its original use, the installation echoes the process of transforming images by AI, and reinforces the metaphorical link between geographical navigation and navigation in the _latent space_.
 
-## Composants de l'Installation
+## Components of the Installation
 
-L'installation est composée des éléments suivants :
+The installation consists of the following elements:
 
-1. Un MCDU factice, comprenant :
-   - un boîtier (peut-être en bois peint),
-   - une façade imprimée en 3D, inspirée d'un MCDU Honeywell,
-   - un écran et un clavier récupérés.
-2. Un mini-ordinateur (par exemple un Raspberry Pi) à l'intérieur du MCDU, fonctionnant sous Linux.
-3. Un vidéoprojecteur relié à l'ordinateur pour afficher les images sur un mur.
+1. A dummy MCDU, comprising:
+   - a case (possibly made of painted wood),
+   - a 3D printed front panel, inspired by a Honeywell MCDU,
+   - a recovered screen and keyboard.
+2. A mini-computer (such as a Raspberry Pi) inside the MCDU, running Linux.
+3. A video projector connected to the computer to display the images on a wall.
 
-## Interaction avec l'Installation
+## Interaction with the Installation
 
-Les visiteurs interagissent avec l'installation en entrant des coordonnées sur le clavier du MCDU. Chaque ensemble de coordonnées correspond à une image spécifique de la collection. L'image est ensuite affichée sur le mur à l'aide du vidéoprojecteur.
+Visitors interact with the installation by entering coordinates on the MCDU keyboard. Each set of coordinates corresponds to a specific image from the collection. The image is then displayed on the wall using the video projector.
 
-Un "mode autopilote" est également disponible, qui fait défiler automatiquement les images lorsqu'aucune interaction n'a lieu.
+An "autopilot mode" is also available, which automatically scrolls through the images when no interaction takes place.
 
-## Travail du Son
+## Sound Work
 
-L'expérience est accompagnée par des bruitages analogiques, notamment des bruits mécanographiques lors de l'interaction avec le clavier. D'autres sons peuvent inclure des bruits de navigation, des sons d'ambiance de l'espace, de la musique générative, ou des réactions sonores spécifiques pour chaque image affichée.
+The experience is accompanied by analog sound effects, including mechanical noises when interacting with the keyboard. Other sounds may include navigation noises, space ambiance sounds, generative music, or specific sound reactions for each displayed image.
 
-## Equipements possibles
+## Possible Equipment
 
 ### MCDU
 
-- https://a320fcu.com/en/product/mcdu-airbus-a320-on-table/
+- [https://a320fcu.com/en/product/mcdu-airbus-a320-on-table/](https://a320fcu.com/en/product/mcdu-airbus-a320-on-table/)
 
-### Ecran
+### Screen
 
-- *Waveshare 7 inch Display for Raspberry Pi :* Écran tactile capacitif HDMI LCD (H) 1024x600 Resolution IPS Monitor Supports All Raspberry Pi/Jetson.
-- *7inch HDMI LCD Display (C) - Amazon :* Écran tactile capacitif de 7 pouces, interface HDMI, prend en charge divers systèmes.
-- *7 Inch Lcd Monitor With Hdmi Input - Computer And Office - AliExpress :* Écran LCD de 7 pouces avec entrée HDMI.
-- *7 inch Lilliput portable HDMI monitors for DSLR, computer and field work :* Le Lilliput 619AT est un moniteur de terrain LCD 16:9 de 7 pouces avec une entrée HDMI et un écran tactile intégré.
-- *8 Inch Mini HDMI Portable LCD Display 1280x800 Resolution Monitor Buil - Pi Australia :* Ce petit moniteur améliore avec des haut-parleurs intégrés. Le volume/la luminosité peut être ajusté.
+- *Waveshare 7 inch Display for Raspberry Pi:* Capacitive Touch HDMI LCD (H) 1024x600 Resolution IPS Monitor Supports All Raspberry Pi/Jetson.
+- *7inch HDMI LCD Display (C) - Amazon:* 7-inch capacitive touch screen, HDMI interface, supports various systems.
+- *7 Inch Lcd Monitor With Hdmi Input - Computer And Office - AliExpress:* 7-inch LCD monitor with HDMI input.
+- *7 inch Lilliput portable HDMI monitors for DSLR, computer and field work:* The Lilliput 619AT is a 7-inch 16:9 LCD field monitor with HDMI input and built-in touchscreen.
+- *8 Inch Mini HDMI Portable LCD Display 1280x800 Resolution Monitor Buil - Pi Australia:* This small monitor is enhanced with built-in speakers. Volume/brightness can be adjusted.
 
-### Clavier
+### Keyboard
 
-- https://www.minimachines.net/actu/orthopi-95187
+- [https://www.minimachines.net/actu/orthopi-95187](https://www.minimachines.net/actu/orthopi-95187)
 
 ### ECU
 
-- _Gigabyte B450 I Aorus Pro :_ Une carte mère ITX intégrée graphique abordable mais puissante.
-- _Asus ROG Strix B760-I Gaming WiFi :_ Construction de petite taille et souhaitez un bon équilibre de fonctionnalités pour le prix.
-- _Intel® Celeron Baytrail SoC Processor :_ Processeur SoC Intel® Celeron Baytrail ; Graphiques Intel® Gen7 Intel intégrés DX 10 ; Prend en charge la DDR3L 1333MHz en double canal, 2 x SO-DIMM, jusqu'à 16GB de système.
+- _Gigabyte B450 I Aorus Pro:_ An affordable yet powerful integrated graphics ITX motherboard.
+- _Asus ROG Strix B760-I Gaming WiFi:_ Small size build and want a good balance of features for the price.
+- _Intel® Celeron Baytrail SoC Processor:_ Intel® Celeron Baytrail SoC Processor; Intel® Gen7 Intel integrated graphics DX 10; Supports dual-channel DDR3L 1333MHz, 2 x SO-DIMM, up to 16GB system.
 
 ## Images
 
